@@ -1,0 +1,13 @@
+<h1> WEATHER BY LIST OF CITIES </h1>
+<button (click)="ShowList()">ShowList</button>
+
+  <div class="container" >
+    <div class="row" *ngFor="let anser of list">
+      <div class="col-sm" id="yourDiv">
+        <p>name of city: {{anser.cityName}} </p>
+        <p>the temperture is : {{anser.temperture}} ℃</p>
+        <p>the weather is : {{anser.weather}}</p>
+      </div>
+    </div>
+  </div>
+  

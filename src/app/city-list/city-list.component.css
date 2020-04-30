@@ -1,0 +1,11 @@
+#yourDiv{
+    border: solid 1px black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin: 30px;
+    background-color: chartreuse;
+}
+div{
+    display: inline-block;
+}
